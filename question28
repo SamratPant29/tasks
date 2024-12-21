@@ -1,0 +1,7 @@
+score_data = float(input("Enter your subject score: "))
+if score_data > 90:
+    print("Congratulations, Excellent performance.")
+elif 50 <= score_data <= 90:
+    print("Good effort, Keep working hard and you can improve further.")
+else:
+    print("You need to retake the course.Never give up.")
